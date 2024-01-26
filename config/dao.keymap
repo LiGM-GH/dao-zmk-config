@@ -7,7 +7,6 @@
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
-#include <dt-bindings/zmk/keys.h>
 
 #define DEF 0
 #define LWR 1
@@ -32,10 +31,10 @@
 
         default_layer {
             bindings = <
-&kt RBKT   &kp Q  &kp W           &kp E        &kp R            &kp T        &kp Y        &kp U           &kp I        &kp O            &kp P     &kp LBKT
-&kt GRAVE  &kp A  &mt LEFT_ALT S  &mt RCTRL D  &mt LGUI F       &kp G        &kp H        &mt RGUI J      &mt RCTRL K  &mt RIGHT_ALT L  &kp SEMI  &kt SQT
-&kt MINUS  &kp Z  &kp X           &kp C        &kp V            &kp B        &kp N        &kp M           &kp COMMA    &kp DOT          &kp FSLH  &kt BSLH
-                                  &lt RSE TAB  &mt LSHFT SPACE  &lt LWR RET  &lt LWR ESC  &mt RSHFT BSPC  &lt RSE DEL
+&kp RIGHT_BRACKET  &kp Q  &kp W           &kp E        &kp R            &kp T        &kp Y        &kp U           &kp I        &kp O            &kp P     &kp LBKT
+&kp GRAVE          &kp A  &mt LEFT_ALT S  &mt RCTRL D  &mt LGUI F       &kp G        &kp H        &mt RGUI J      &mt RCTRL K  &mt RIGHT_ALT L  &kp SEMI  &kp SQT
+&kp MINUS          &kp Z  &kp X           &kp C        &kp V            &kp B        &kp N        &kp M           &kp COMMA    &kp DOT          &kp FSLH  &kp BACKSLASH
+                                          &lt RSE TAB  &mt LSHFT SPACE  &lt LWR RET  &lt LWR ESC  &mt RSHFT BSPC  &lt RSE DEL
             >;
         };
 
