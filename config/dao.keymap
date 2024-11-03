@@ -40,19 +40,19 @@
 
         lower_layer {
             bindings = <
-&kp F1     &kp F2    &kp F3  &kp F4       &kp F5    &kp F6     &kp F7     &kp F8    &kp F9       &kp F10   &kp F11   &kp F12
-&kp PLUS   &kp EXCL  &kp AT  &kp HASH     &kp DLLR  &kp PRCNT  &kp CARET  &kp AMPS  &kp STAR     &kp LPAR  &kp RPAR  &kp MINUS
-&kp EQUAL  &kp N1    &kp N2  &kp N3       &kp N4    &kp N5     &kp N6     &kp N7    &kp N8       &kp N9    &kp N0    &kp RALT
-                             &lt ADJ TAB  &trans    &trans     &trans     &trans    &lt ADJ DEL
+&kp F1     &kp F2    &kp F3           &kp F4          &kp F5         &kp F6     &kp F7     &kp F8         &kp F9          &kp F10             &kp F11   &kp F12
+&kp PLUS   &kp EXCL  &mt LEFT_ALT AT  &mt LCTRL HASH  &mt LGUI DLLR  &kp PRCNT  &kp CARET  &mt RGUI AMPS  &mt RCTRL STAR  &mt RIGHT_ALT LPAR  &kp RPAR  &kp MINUS
+&kp EQUAL  &kp N1    &kp N2           &kp N3          &kp N4         &kp N5     &kp N6     &kp N7         &kp N8          &kp N9              &kp N0    &kp RALT
+                                      &lt ADJ TAB     &trans         &trans     &trans     &trans         &lt ADJ DEL
             >;
         };
 
         raise_layer {
             bindings = <
-&mt LGUI KP_NUM  &kp KP_SLASH     &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC  &kp C_BRIGHTNESS_INC  &kp PAUSE_BREAK  &kp C_VOLUME_UP  &kp C_VOLUME_DOWN  &kp C_MUTE      &kp SLCK         &kp CAPSLOCK
-&mt LCTRL EQUAL  &kp KP_MULTIPLY  &kp KP_N4             &kp KP_N5             &kp KP_N6             &kp C_MUTE            &kp LEFT         &mt RGUI DOWN    &mt RCTRL UP       &mt RALT RIGHT  &kp INS          &kp K_APP
-&kp LALT         &kp PAUSE_BREAK  &kp KP_N1             &kp KP_N2             &kp END               &kp C_BRIGHTNESS_DEC  &kp PAGE_DOWN    &kp END          &kp HOME           &kp PAGE_UP     &kp PRINTSCREEN  &kp RALT
-                                                        &trans                &trans                &lt ADJ RET           &lt ADJ ESC      &trans           &trans
+&none  &none  &none              &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC  &none          &kp PAUSE_BREAK  &kp C_VOLUME_UP  &kp C_VOLUME_DOWN  &kp C_MUTE           &kp SLCK         &kp CAPSLOCK
+&none  &none  &mt LEFT_ALT LEFT  &mt LCTRL UP          &mt LGUI DOWN         &kp RIGHT      &kp LEFT         &mt RGUI DOWN    &mt RCTRL UP       &mt RIGHT_ALT RIGHT  &kp INS          &kp K_APP
+&none  &none  &kp PAGE_UP        &kp HOME              &kp END               &kp PAGE_DOWN  &kp PAGE_DOWN    &kp END          &kp HOME           &kp PAGE_UP          &kp PRINTSCREEN  &kp RALT
+                                 &trans                &trans                &lt ADJ RET    &lt ADJ ESC      &trans           &trans
             >;
         };
 
