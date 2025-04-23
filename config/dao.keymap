@@ -51,7 +51,7 @@
             bindings = <
 &none  &none  &none              &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC  &none          &kp PAUSE_BREAK  &kp C_VOLUME_UP  &kp C_VOLUME_DOWN  &kp C_MUTE           &kp SLCK         &kp CAPSLOCK
 &none  &none  &mt LEFT_ALT LEFT  &mt LCTRL UP          &mt LGUI DOWN         &kp RIGHT      &kp LEFT         &mt RGUI DOWN    &mt RCTRL UP       &mt RIGHT_ALT RIGHT  &kp INS          &kp K_APP
-&none  &none  &kp PAGE_UP        &kp HOME              &kp END               &kp PAGE_DOWN  &kp PAGE_DOWN    &kp END          &kp HOME           &kp PAGE_UP          &kp PRINTSCREEN  &kp RALT
+&none  &none  &kp PAGE_UP        &kp HOME              &kp END               &kp PAGE_DOWN  &kp PAGE_DOWN    &kp END          &kp HOME           &kp PAGE_UP          &kp PRINTSCREEN  &none
                                  &trans                &trans                &lt ADJ RET    &lt ADJ ESC      &trans           &trans
             >;
         };
